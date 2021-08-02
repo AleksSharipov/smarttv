@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Упрощенная демо-версий сайта для Smart-tv. 
+Упрощенная демо-версий сайта для Smart-tv. Сайт доступен по ссылке https://alekssharipov.github.io/smarttv/
 Микросайт состоит из серии экранов:
 
 1)промо-видео с баннером.
