@@ -1,0 +1,184 @@
+.promo__form {
+  width: 380px;
+  background-color: #86D3F4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo__header {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 72px;
+}
+
+.promo__subheader {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 337px;
+  margin-top: 13px;
+}
+
+.promo__input {
+  background-color: #86D3F4;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  margin-top: 13px;
+  height: 38px;
+}
+
+.promo__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
+
+.promo__description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.promo__qr {
+  width: 194px;
+  height: 76px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.numbers {
+  margin-top: 13px;
+  width: 284px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px
+}
+
+.number {
+  width: 88px;
+  height: 52px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.number__active {
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.del__active {
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.number:hover {
+  background-color: black;
+  color: #FFFFFF;
+}
+.del:hover {
+  background-color: black;
+  color: #FFFFFF;
+}
+
+.concert {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  margin: 33px 0 0 58px;
+  width: 284px;
+  height: 52px;
+}
+
+.concert__square {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.concert__description{
+  max-width: 214px;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  color: #565656;
+}
+
+.concert__description_error {
+  color: red;
+}
+
+.concert__img {
+  width: 24px;
+  height: 17px;
+}
+
+.promo__btn {
+  width: 284px;
+  height: 52px;
+  align-items: center;
+  padding: 16px 19px;
+  border: 1px solid #4E4E4E;
+  box-sizing: border-box;
+  background-color: inherit;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.promo__btn_enable {
+  width: 284px;
+  height: 52px;
+  align-items: center;
+  padding: 16px 19px;
+  border: 1px solid #4E4E4E;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  cursor: pointer;
+}

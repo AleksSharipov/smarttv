@@ -1,0 +1,80 @@
+.banner {
+  /* background-image: url(../../img/video.png); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 720px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner__qr {
+  position: absolute;
+  width: 250px;
+  height: 360px;
+  background: #86D3F4;
+  margin-top: 220px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: showDiv 5s forwards;
+  /* display: none; */
+  opacity: 0;
+}
+
+@keyframes showDiv {
+  0%, 99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.banner__header {
+  margin: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  width: 230px;
+  height: 57px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.banner__img {
+  margin-top: 20px;
+}
+
+.banner__description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  width: 126px;
+  height: 32px;
+  margin-top: 20px;
+}
+
+.banner__btn {
+  padding: 16px;
+  width: 156px;
+  height: 52px;
+  background: #000000;
+  margin-top: 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.banner__btn:hover {
+  opacity: .8;
+  transition: .5s;
+}
